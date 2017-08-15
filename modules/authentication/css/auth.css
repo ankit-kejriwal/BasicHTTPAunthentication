@@ -1,0 +1,17 @@
+.defaultPasswordCls{
+    width: 40%;
+    background-color: blue;
+    border: 1px solid black;
+    font-family: serif;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+p{
+margin: 0;
+}
+.textBoxClass{
+    float: left;
+    margin-right: 10px;
+}
