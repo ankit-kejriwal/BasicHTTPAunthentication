@@ -1,13 +1,17 @@
 <!DOCTYPE HTML>
-<html>
+<html ng-app="basicHttpAuthentication">
 <head>
-    <title>routing</title>
+    <title>Angular basic Authentication</title>
    </head>
 <body >
-    <h1>intro to router</h1>
-    <ul class="tabs">
-    <li>Tab 2</li>    
-    <li>Tab 1</li>
-    </ul>
+    <h1>Basic Aunthentical example</h1>
+    <div ng-view></div>
+    <script src="http://code.angularjs.org/1.2.20/angular.js"></script>
+    <script src="http://code.angularjs.org/1.2.20/angular-route.js"></script>
+    <script src="http://code.angularjs.org/1.2.13/angular-cookies.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="modules/authentication/services.js"></script>
+    <script src="modules/authentication/controller.js"></script>
+<!--    <script src="modules/home/controllers.js"></script>-->
 </body>
 </html>
