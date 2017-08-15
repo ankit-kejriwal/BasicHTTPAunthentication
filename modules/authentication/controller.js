@@ -9,7 +9,7 @@ angular.module('authentication')
                     console.log($scope.password);
                 authenticationService.loginService($scope.username,$scope.password,function(response){
                     if(response.flag){
-                        $location.path('/');
+                        $location.path('/home');
                     }
                     else{
                     $scope.error = "Username and Password is incorrect";
