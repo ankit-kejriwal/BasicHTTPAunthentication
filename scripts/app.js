@@ -15,7 +15,7 @@ angular.module('basicHttpAuthentication',[
             templateUrl:'modules/authentication/views/login.html' 
     })
     
-    .when('/',{
+    .when('/home',{
         controller: 'homeController',
         templateUrl: 'modules/home/views/home.html'
     })
